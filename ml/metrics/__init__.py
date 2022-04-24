@@ -1,2 +1,2 @@
-from ml.metrics.errors import Metrics
+from ml.metrics.errors import EvaluationMetrics
 

@@ -1,6 +1,6 @@
 import numpy as np
 
-class Metrics:
+class EvaluationMetrics:
 
     def rmse(y_real: np.ndarray, y_predicted: np.ndarray) -> float:
         diff = (y_real - y_predicted) ** 2
